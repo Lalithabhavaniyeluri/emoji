@@ -1,0 +1,207 @@
+.lear{
+    height:100px;
+    width:100px;
+    border-radius: 55%;
+    background-color: #836852;
+    position:absolute;
+    margin-left:43px;
+    margin-top: -70px ;
+}
+
+.rear{
+    height:100px;
+    width:100px;
+    border-radius: 55%;
+    background-color: #836852;
+    position:absolute;
+    margin-left:168px;
+    margin-top: -70px ;
+}
+.ear1{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #C19A6B;
+    position:absolute;
+   
+    margin-left:65px;
+    margin-top: -50px ;
+    border: 2px;
+}
+.r2{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #836852;
+    position:absolute;
+    margin-left: 70px;
+    margin-top: -25px;
+    border: 2px;
+}
+.ear2{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #C19A6B;
+    position:absolute;
+  
+    margin-left:190px;
+    margin-top: -50px ;
+    border: 2px;
+}
+.r1{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #836852;
+    position:absolute;
+  
+    margin-left:180px;
+    margin-top: -25px ;
+    border: 2px;
+}
+.face{
+    height:250px;
+    width: 300px;
+    background-color: #836852;
+    border-radius: 50%;
+    margin-top: 90px;
+    margin-left: 35%;
+    position: relative;
+}
+
+.leye{
+   
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    height: 70px;
+    width: 70px;
+    margin-left:70px;
+    margin-top:50px;
+}
+.reye{
+   
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    height: 70px;
+    width: 70px;
+    margin-left:155px;
+    margin-top:50px;
+}
+.lpupil{
+   
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    margin-left:23px;
+    margin-top:20px;
+}
+.w1{
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(12, 12, 12);
+    height: 15px;
+    width: 15px;
+    margin-left:30px;
+    margin-top:29px;
+}
+/* .w2{
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    margin-left:23px;
+    margin-top:20px;
+} */
+.rpupil{
+   
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    margin-left:16px;
+    margin-top:20px;
+}
+.pup1{
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    width: 30px;
+    margin-left:16px;
+    margin-top:20px;
+}
+.w3{
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(12, 12, 12);
+    height: 15px;
+    width: 15px;
+    margin-left:23px;
+    margin-top:28px;
+}
+.nose{
+    height:60px;
+    width:90px;
+    border-radius: 45%;
+    background-color: #C19A6B;
+    position:absolute;
+    margin-left:100px;
+    margin-top: 130px ;
+  
+}
+
+.tip{
+     height: 30px;
+     width:40px;
+     border-radius: 60%;
+     background-color: rgb(0, 0, 0);
+     position:absolute;
+     margin-top:15px;
+     margin-left: 25px;
+}
+
+
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+
+}
+.m{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    border: 5px solid transparent;
+    border-bottom: 10px solid black;
+    border-radius: 7px 7px 100px 100px;
+    transition: 0.5s;
+    margin-top:90px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.lpupil:hover{
+    cursor: pointer;
+        transform: scale(2);
+        border: 1px solid black;
+        transition: all 0.5s ease;
+}
+.rpupil:hover{
+        cursor: pointer;
+        transform: scale(2);
+        border: 1px solid black;
+        transition: all 0.5s ease;
+}
+.m:hover{
+    cursor: pointer;
+        transform: scale(30px);
+        border: 5px solid black;
+        transition: all 0.5s ease;
+}
